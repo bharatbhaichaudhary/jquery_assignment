@@ -1,0 +1,14 @@
+1. What is jQuery?
+=> jQuery is a lightweight, "write less, do more", JavaScript library.
+
+2.How to Apply CSS Using JQuery, How to Add Class and Remove Class in
+Jquery, JQuery Animation?
+       (1)How to Apply CSS Using JQuery
+       =>The css() method sets or returns one or more style properties for the selected elements.
+       (2)Add Class and Remove Class inJquery,?
+       =>removeClass() - Removes one or more classes from the selected elements
+        toggleClass() - Toggles between adding/removing classes from the selected elements
+        (3)JQuery Animation
+        =>The jQuery animate() method is used to create custom animations
+
+       

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 98%;
+            height: 95vh;
+            border: 2px solid red;
+        }
+
+        div {
+            width: 90%;
+            height: 80vh;
+            border: 2px solid red;
+            margin: 22px;
+        }
+
+        ul {
+            width: 70%;
+            height: 65vh;
+            border: 2px solid red;
+            margin: 22px;
+            list-style: none;
+        }
+
+        li {
+            width: 70%;
+            height: 50vh;
+            border: 2px solid red;
+            margin: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        span {
+            display: block;
+            width: 70%;
+            height: 10vh;
+            border: 2px solid rgb(44, 40, 40);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>
+                <span>
+
+                </span>
+            </li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+
+
+        $(document).ready(function () {
+            $("body").on("click", function () {
+                alert("this is body")
+
+            });
+            $("ul").on("click", function () {
+                alert("this is ul")
+            });
+            $("li").on("click", function () {
+                alert("this is li")
+            });
+            $("div").on("click", function () {
+                alert("this is div")
+            });
+            $("span").on("click", function () {
+                alert("this is span")
+            })
+
+        })
+    </script>
+</body>
+
+</html>
